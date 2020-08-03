@@ -26,7 +26,7 @@ Task. Please write a query in **T-SQL** that returns the following columns:
 Result:
 check sql script in: - [Falck Employee](/sql/Falck_Employee.sql) 
 
-![Alt text](/pic/1.3.png "Employee 3")
+![Alt text](/pic/1.3.PNG "Employee 3")
 
 
 **Exercise 2.** 
@@ -43,7 +43,7 @@ Calendar Date, Employee, Department, Salary, First Employee's Salary by Date, Em
 Result:
 check sql script in: - [Falck Salary](/sql/Falck_Salary.sql) 
 
-![Alt text](/pic/2.3.png "Salary 3")
+![Alt text](/pic/2.3.PNG "Salary 3")
 
 
 **Exercise 3.**
