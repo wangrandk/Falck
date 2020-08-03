@@ -107,15 +107,23 @@ Create process for copying data from database WideWorldImportersDW for tables Di
     - Copy data activity for exporting data from On Premise DB to Blob Storage.
     - Copy data activity for loading data from blob storage to Azure SQl DB.
     
-    Result: Pipeline for **Dimension.Customer**
+    
+    ### Result: Pipeline for **Dimension.Customer**
+    
     ![Alt text](/pic/3.4.png "ADF Pipeline 1") 
+    
     ![Alt text](/pic/3.5.png "Azure blob storage 1") 
+    
     ![Alt text](/pic/3.6.png "SSMS 1") 
     
-     Result: Pipeline for **Fact.Sale**
+     ### Result: Pipeline for **Fact.Sale**
+     
     ![Alt text](/pic/3.7.png "ADF Pipeline 2") 
+    
     ![Alt text](/pic/3.8.png "Azure blob storage 2") 
+    
     ![Alt text](/pic/3.9.png "SSMS 2") 
+    
 1.	Copy data from On premise to Cloud
 1.	Submit results, present work and relax 😊
 
