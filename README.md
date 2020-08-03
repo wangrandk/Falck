@@ -106,7 +106,7 @@ Create process for copying data from database WideWorldImportersDW for tables Di
 1.	Create 2 (for 2 tables) Azure Data Factory Pipelines with at least two activities:<br/>
     - Copy data activity for exporting data from On Premise DB to Blob Storage.
     - Copy data activity for loading data from blob storage to Azure SQl DB.
-    <br/>
+    
     Result: Pipeline for **Dimension.Customer**
     ![Alt text](/pic/3.4.png "ADF Pipeline 1") 
     ![Alt text](/pic/3.5.png "Azure blob storage 1") 
