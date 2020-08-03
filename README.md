@@ -9,7 +9,7 @@
 [Exercise 3](#Exercise 3)<br/>
 
 
-**Exercise 1.**
+## Exercise 1.
 
 Table Employee has the following columns: **EmployeeId, EmployeeName, EmployeeTitle, ManagerId**. Column ManagerId represents self-referencing relationship between Manager and Employee.
 
@@ -29,7 +29,7 @@ check sql script in: - [Falck Employee](/sql/Falck_Employee.sql)
 ![Alt text](/pic/1.3.PNG "Employee 3")
 
 
-**Exercise 2.** 
+## Exercise 2.
 Table **Salary** has the following columns: Calendar Date, Employee, Department, Salary.
 Table Salary:
 
@@ -46,7 +46,7 @@ check sql script in: - [Falck Salary](/sql/Falck_Salary.sql)
 ![Alt text](/pic/2.3.PNG "Salary 3")
 
 
-**Exercise 3.**
+## Exercise 3.
 Let say you are responsible for implementing T-SQL code for daily load of Dimension Employee.
 Incremental load occurs every day and load delta changes into table Staging.Employee. Table Staging.Employee has following columns: EmployeeId, EmployeeName, EmployeeTitle, ManagerId, SalaryNumber.
 Task. Please write code in **T-SQL** that mimic process of loading Dimension Employee with following technical specification.
