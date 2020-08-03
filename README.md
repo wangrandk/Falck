@@ -4,9 +4,9 @@
 
 ### Contents
 
-[Exercise 1](#Exercise-1.)<br/>
-[Exercise 2](#Exercise-2.)<br/>
-[Exercise 3](#Exercise-3.)<br/>
+[Exercise 1.](#Exercise-1.)<br/>
+[Exercise 2.](#Exercise-2.)<br/>
+[Exercise 3.](#Exercise-3.)<br/>
 
 
 ## Exercise 1.
