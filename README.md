@@ -96,6 +96,7 @@ Create process for copying data from database WideWorldImportersDW for tables Di
     Links where to get .bak file:
 	  https://docs.microsoft.com/en-us/sql/samples/wide-world-importers-dw-install-configure?view=sql-server-ver15
 	  https://github.com/Microsoft/sql-server-samples/releases/tag/wide-world-importers-v1.0
+	 <br/>
 	 ![Alt text](/pic/3.1.png "Restore On Premise database") 
 1.	Deploy WideWorldImportersDW to Azure SQL DB (Publishing to Azure SQL Database). 
     Link where to get source code:
@@ -105,15 +106,24 @@ Create process for copying data from database WideWorldImportersDW for tables Di
 1.	Create 2 (for 2 tables) Azure Data Factory Pipelines with at least two activities:<br/>
     - Copy data activity for exporting data from On Premise DB to Blob Storage.
     - Copy data activity for loading data from blob storage to Azure SQl DB.
-    Result: Pipeline for **Dimension.Customer**
+    
+    
+    ### Result: Pipeline for **Dimension.Customer**
+    
     ![Alt text](/pic/3.4.png "ADF Pipeline 1") 
+    
     ![Alt text](/pic/3.5.png "Azure blob storage 1") 
+    
     ![Alt text](/pic/3.6.png "SSMS 1") 
     
-     Result: Pipeline for **Fact.Sale**
+     ### Result: Pipeline for **Fact.Sale**
+     
     ![Alt text](/pic/3.7.png "ADF Pipeline 2") 
+    
     ![Alt text](/pic/3.8.png "Azure blob storage 2") 
+    
     ![Alt text](/pic/3.9.png "SSMS 2") 
+    
 1.	Copy data from On premise to Cloud
 1.	Submit results, present work and relax 😊
 
